@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/relativelayout"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <TextView
-            android:layout_width="fill_parent"
+    <ImageView
+            android:id="@+id/birdImageView"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:src="@drawable/fringilla_coelebs"
+            android:contentDescription="Bird image"/>
+    <TextView
+            android:id="@+id/myImageViewText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/birdImageView"
+            android:layout_alignTop="@+id/birdImageView"
+            android:layout_alignRight="@+id/birdImageView"
+            android:layout_margin="1dp"
+            android:gravity="center"
             android:text="Fringilla coelebs"
-            />
-</LinearLayout>
+            android:textColor="#ffffff"/>
+</RelativeLayout>
 

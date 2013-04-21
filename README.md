@@ -8,7 +8,6 @@ Birds Around Me
 * I want to see bird metadata.
 * I want to see bird's name in several languages.
 * I want to have romanian and english support.
-
 * I want to mark a bird as seen.
 * I want to mark a bird as seen using my location.
 * I want to see the history of marks.
